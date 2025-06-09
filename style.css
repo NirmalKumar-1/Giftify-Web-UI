@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    background-color: #6929A4;
+    border-radius: 12px;
+}
+
+.gift-btn1, .gift-btn2 {
+    padding: 8px 40px;
+}
+
+.gift-btn2 {
+    background-color: #9243DD;
+}
+
+.png2 {
+   margin-top: 16px;
+   margin-bottom: 13px; 
+}
+
+.png3 {
+    margin-top: 18px;
+    margin-bottom: 9px;
+    color: green;
+}
+
+.balloon-img {
+    height: 400px;
+}
+
+/* media queries */
+@media (max-width:1403px){
+    .balloon-img {
+        height: 300px;
+    }
+}
+
+@media (max-width:1203px){
+    .balloon-img {
+        height: 250px;
+    }
+}
+
+@media (max-width:503px){
+    .balloon-img {
+        height: 350px;
+    }
+}
+
+@media (max-width:403px){
+    .balloon-img {
+        height: 250px;
+    }
+}
